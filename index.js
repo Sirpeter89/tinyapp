@@ -1,4 +1,5 @@
 const leftButton = document.getElementById('slide-left')
+const rightButton = document.getElementById('slide-right')
 
 const display = document.querySelector(".secondary")
 
@@ -23,6 +24,12 @@ function getIndex(down){
 
 leftButton.addEventListener("click", ()=>{
     let down = true;
+    getIndex(down);
+    display.innerHTML = titles[index];
+})
+
+rightButton.addEventListener("click", ()=>{
+    let down = false;
     getIndex(down);
     display.innerHTML = titles[index];
 })
