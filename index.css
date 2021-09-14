@@ -25,12 +25,22 @@ body {
     height: 50%;
 }
 
-.slide{
+#slide-left{
     height: 400px;
     width: 150px;
     font-weight: 800;
     font-size: 2em;
     background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+
+#slide-right{
+    height: 400px;
+    width: 150px;
+    font-weight: 800;
+    font-size: 2em;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
 }
 
 .display{
