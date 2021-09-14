@@ -1,7 +1,6 @@
 const leftButton = document.getElementById('slide-left')
-console.log(leftButton.innerText)
+const display = document.querySelector(".display")
 
-// leftButton.addEventListener("click", ()=>{
-//     console.log("hello")
-//     leftButton.innerHTML = "Yes"
-// })
+leftButton.addEventListener("click", ()=>{
+    console.log("hello")
+})
